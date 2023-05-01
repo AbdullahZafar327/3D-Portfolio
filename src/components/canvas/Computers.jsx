@@ -1,12 +1,12 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { useGLTF ,OrbitControls,Preload} from "@react-three/drei";
-
 import CanvasLoader from "../Loader";
 
 const Computers = () => {
   const [isMobile,setIsMobile]  = useState(false)
   const computer = useGLTF('./desktop_pc/scene.glb')
+
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width:600px)')

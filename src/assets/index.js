@@ -8,7 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -19,19 +18,17 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+
+
 import ecommerce from './ecommerce.png';
 import shareyourfeed from './shareyourfeed.png';
-import memories from './memories.png';
 import threejsproduct from './threejsproduct.png';
 import Aifronted from './Aifronted.png'
 import Materialui from './tech/materialui.png'
@@ -46,7 +43,6 @@ export {
   amazonlite,
   realtor,
   shareyourfeed,
-  memories,
   Aifronted,
   threejsproduct,
   ecommerce,
@@ -62,7 +58,6 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -73,12 +68,8 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   meta,
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
 };
